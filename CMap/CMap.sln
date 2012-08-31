@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMap", "CMap\CMap.csproj", "{ae43ba04-cb83-4e59-b574-a9db11c5589c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE43BA04-CB83-4E59-B574-A9DB11C5589C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE43BA04-CB83-4E59-B574-A9DB11C5589C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE43BA04-CB83-4E59-B574-A9DB11C5589C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE43BA04-CB83-4E59-B574-A9DB11C5589C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
