@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMap", "CMap\CMap.csproj", "{ae43ba04-cb83-4e59-b574-a9db11c5589c}"
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMap", "CMap\CMap.csproj", "{AE43BA04-CB83-4E59-B574-A9DB11C5589C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowboard", "C:\Users\truonghinh\Documents\Expression\Blend 4\Samples\SnowboardSketch\Snowboard\Snowboard.csproj", "{1f69821f-d2e4-46d9-9fa9-827d49717f1e}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowboard", "C:\Users\truonghinh\Documents\Expression\Blend 4\Samples\SnowboardSketch\Snowboard\Snowboard.csproj", "{1F69821F-D2E4-46D9-9FA9-827D49717F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowboardScreens", "C:\Users\truonghinh\Documents\Expression\Blend 4\Samples\SnowboardSketch\Snowboard\SnowboardScreens\SnowboardScreens.csproj", "{8fdd1a22-0593-4486-9f94-2119bbac57db}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowboardScreens", "C:\Users\truonghinh\Documents\Expression\Blend 4\Samples\SnowboardSketch\Snowboard\SnowboardScreens\SnowboardScreens.csproj", "{8FDD1A22-0593-4486-9F94-2119BBAC57DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMapPrototype", "CMapPrototype\CMapPrototype.csproj", "{4263F47D-8A2B-4C56-8FDB-DB34AE97245F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMapPrototypeScreens", "CMapPrototype\CMapPrototypeScreens\CMapPrototypeScreens.csproj", "{6C09066A-0CBF-4954-BF6C-0B40ECD0C09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFMapViewer2008", "..\WPFMapViewer\CSharp\WPFMapViewer2008.csproj", "{0B519FE6-F983-4E02-962A-14D27E0D1338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +31,20 @@ Global
 		{8FDD1A22-0593-4486-9F94-2119BBAC57DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FDD1A22-0593-4486-9F94-2119BBAC57DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FDD1A22-0593-4486-9F94-2119BBAC57DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4263F47D-8A2B-4C56-8FDB-DB34AE97245F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4263F47D-8A2B-4C56-8FDB-DB34AE97245F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4263F47D-8A2B-4C56-8FDB-DB34AE97245F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4263F47D-8A2B-4C56-8FDB-DB34AE97245F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C09066A-0CBF-4954-BF6C-0B40ECD0C09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C09066A-0CBF-4954-BF6C-0B40ECD0C09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C09066A-0CBF-4954-BF6C-0B40ECD0C09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C09066A-0CBF-4954-BF6C-0B40ECD0C09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

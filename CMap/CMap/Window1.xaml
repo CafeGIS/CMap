@@ -1,0 +1,28 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	xmlns:my="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+    x:Class="CMap.Window1"
+	x:Name="Window"
+	Title="Window1"
+	Width="640" Height="480" Background="{x:Null}" Visibility="Visible" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Loaded">
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle Margin="119.102,98.311,135.102,120.311" Stroke="Black" RenderTransformOrigin="0.5,0.5" RadiusY="29.794" RadiusX="29.794" Fill="#FFF4F4F5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-0.185"/>
+					<TranslateTransform/>
+				</TransformGroup>
+                
+            </Rectangle.RenderTransform>
+		</Rectangle>
+        <!--<my:WindowsFormsHost Name="mapHost" Margin="174,30,0,22" />
+        <my:WindowsFormsHost Margin="0,30,0,22" Name="tocHost" HorizontalAlignment="Left" Width="173" />
+        <my:WindowsFormsHost Height="30" Name="toolbarHost" VerticalAlignment="Top" />
+        <TextBlock Height="23.75" VerticalAlignment="Bottom" Name="textBlock1" Margin="0,0,7.056,0">Ready</TextBlock>-->
+    </Grid>
+</Window>
