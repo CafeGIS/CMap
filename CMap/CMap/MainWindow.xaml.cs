@@ -65,5 +65,23 @@ namespace CMap
             System.Console.WriteLine(e.mapX.ToString());
             System.Windows.MessageBox.Show(e.mapX.ToString());
         }
+
+        private void mbtClose_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+			App.Current.Shutdown();
+        }
+
+        private void btnClose_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+			this.Close();
+        }
+
+        private void btnClose_MouseMove(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+			this.btnClose.Background=new SolidColorBrush(Color.FromRgb(12,12,12));
+        }
 	}
 }

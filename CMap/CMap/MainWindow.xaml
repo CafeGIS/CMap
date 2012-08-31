@@ -2,14 +2,31 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:whost="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+    xmlns:chrome="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"
 	x:Class="CMap.MainWindow"
 	x:Name="Window"
 	xmlns:local="clr-namespace:CMap" 
 	Title="MainWindow"
 	Width="640" Height="480" Loaded="Window_Loaded">
-
-	<Grid x:Name="LayoutRoot" Background="White">
-	<local:MainView Margin="-12,12,12,218" />
-        <whost:WindowsFormsHost Name="mapHost" Margin="57,241,68,24" />
+<chrome:WindowChrome.WindowChrome>
+        <chrome:WindowChrome
+            ResizeBorderThickness="6"
+            CaptionHeight="43"
+            CornerRadius="25,25,10,10"
+            GlassFrameThickness="0">
+        </chrome:WindowChrome>
+    </chrome:WindowChrome.WindowChrome>
+	<Grid x:Name="LayoutRoot" Background="#FF333333">
+        <WindowsFormsHost x:Name="mapHost" Margin="57,241,68,24" />
+        <Rectangle x:Name="mbtClose" Fill="#FFFB0F0F" HorizontalAlignment="Right" Height="25" Margin="0,4.958,4.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0" MouseUp="mbtClose_MouseUp"/>
+        <Rectangle Fill="Gray" HorizontalAlignment="Right" Height="25" Margin="0,4.958,34.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0"/>
+        <Rectangle Fill="Gray" HorizontalAlignment="Right" Height="25" Margin="0,4.958,64.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0"/>
+        <Button x:Name="btnClose" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Margin="126,50,0,0" Click="btnClose_Click" MouseMove="btnClose_MouseMove">
+        	<Button.Template>
+        		<ControlTemplate>
+        			<Rectangle Width="30" Height="25" Fill="#FFFB0F0F" RadiusY="1.709" RadiusX="1.709"/>    		
+				</ControlTemplate>     	
+			</Button.Template>      
+		</Button>
 	</Grid>
 </Window>
