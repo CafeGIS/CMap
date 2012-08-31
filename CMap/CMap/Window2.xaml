@@ -1,0 +1,18 @@
+﻿<Window x:Class="CMap.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lm="clr-namespace:LibMap;assembly=LibMap"
+        xmlns:chrome="clr-namespace:Microsoft.Windows.Shell;assembly=Microsoft.Windows.Shell"
+        Title="Window2" Height="300" Width="300">
+    <chrome:WindowChrome.WindowChrome>
+        <chrome:WindowChrome
+            ResizeBorderThickness="6"
+            CaptionHeight="43"
+            CornerRadius="25,25,10,10"
+            GlassFrameThickness="0">
+        </chrome:WindowChrome>
+    </chrome:WindowChrome.WindowChrome>
+    <Grid>
+        <lm:MapView Name="mapView" Margin="12,12,23,28" />
+    </Grid>
+</Window>

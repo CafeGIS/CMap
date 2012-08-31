@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMapPrototypeScreens", "CMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFMapViewer2008", "..\WPFMapViewer\CSharp\WPFMapViewer2008.csproj", "{0B519FE6-F983-4E02-962A-14D27E0D1338}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMap", "LibMap\LibMap.csproj", "{1EE380CA-E858-4AED-9639-B2049149F345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomChromeLibrary", "CustomChromeLibrary\CustomChromeLibrary.csproj", "{25990F61-A27B-4EDF-A402-B31BF952153F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B519FE6-F983-4E02-962A-14D27E0D1338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE380CA-E858-4AED-9639-B2049149F345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE380CA-E858-4AED-9639-B2049149F345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE380CA-E858-4AED-9639-B2049149F345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE380CA-E858-4AED-9639-B2049149F345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25990F61-A27B-4EDF-A402-B31BF952153F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25990F61-A27B-4EDF-A402-B31BF952153F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25990F61-A27B-4EDF-A402-B31BF952153F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25990F61-A27B-4EDF-A402-B31BF952153F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,23 +6,25 @@
     x:Class="CMap.Window1"
 	x:Name="Window"
 	Title="Window1"
-	Width="640" Height="480" Background="{x:Null}" Visibility="Visible" AllowsTransparency="True" WindowStyle="None" Loaded="Window_Loaded">
+	Width="689" Height="520" Visibility="Visible" Loaded="Window_Loaded" WindowStyle="None" Foreground="{x:Null}" BorderBrush="#FFF51B1B" AllowsTransparency="True">
+	<Window.Background>
+		<ImageBrush/>
+	</Window.Background>
 
-	<Grid x:Name="LayoutRoot">
-		<Rectangle Margin="119.102,98.311,135.102,120.311" Stroke="Black" RenderTransformOrigin="0.5,0.5" RadiusY="29.794" RadiusX="29.794" Fill="#FFF4F4F5">
-			<Rectangle.RenderTransform>
-				<TransformGroup>
-					<ScaleTransform/>
-					<SkewTransform/>
-					<RotateTransform Angle="-0.185"/>
-					<TranslateTransform/>
-				</TransformGroup>
-                
-            </Rectangle.RenderTransform>
-		</Rectangle>
-        <!--<my:WindowsFormsHost Name="mapHost" Margin="174,30,0,22" />
-        <my:WindowsFormsHost Margin="0,30,0,22" Name="tocHost" HorizontalAlignment="Left" Width="173" />
-        <my:WindowsFormsHost Height="30" Name="toolbarHost" VerticalAlignment="Top" />
-        <TextBlock Height="23.75" VerticalAlignment="Bottom" Name="textBlock1" Margin="0,0,7.056,0">Ready</TextBlock>-->
+	<Grid x:Name="LayoutRoot" Margin="0,0,-8,1">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.08*"/>
+			<ColumnDefinition Width="0.503*"/>
+			<ColumnDefinition Width="0.303*"/>
+			<ColumnDefinition Width="0.114*"/>
+		</Grid.ColumnDefinitions>
+        
+        <Rectangle Fill="#FFF4F4F5" Margin="0,0,8,0" Stroke="Black" RadiusY="19.667" RadiusX="19.667" Grid.ColumnSpan="4"/>
+        <Grid Margin="-3.4,39,37.5,56" Grid.ColumnSpan="3" Grid.Column="1">
+        	<WindowsFormsHost Height="30" x:Name="toolbarHost" VerticalAlignment="Top" Width="532" d:LayoutOverrides="VerticalAlignment" Margin="8,8,53.567,0" />
+        	<WindowsFormsHost x:Name="mapHost" Margin="188,42,53.567,35.75" />
+        	<WindowsFormsHost x:Name="tocHost" HorizontalAlignment="Left" Width="173" Margin="8,42,0,35.75" />
+        	<TextBlock Height="23.75" VerticalAlignment="Bottom" x:Name="textBlock1" Margin="13,0,53.567,8" Width="527" d:LayoutOverrides="VerticalAlignment"><Run Text="Ready"/></TextBlock>
+        </Grid>
     </Grid>
 </Window>
