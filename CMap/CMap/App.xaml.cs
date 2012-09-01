@@ -22,6 +22,7 @@ namespace CMap
         {
             //m_AOLicenseInitializer.InitializeApplication(new esriLicenseProductCode[] { esriLicenseProductCode.esriLicenseProductCodeArcInfo },
             //new esriLicenseExtensionCode[] { esriLicenseExtensionCode.esriLicenseExtensionCodeNetwork, esriLicenseExtensionCode.esriLicenseExtensionCodeSchematics, esriLicenseExtensionCode.esriLicenseExtensionCodeMLE, esriLicenseExtensionCode.esriLicenseExtensionCodeSpatialAnalyst, esriLicenseExtensionCode.esriLicenseExtensionCodeDataInteroperability, esriLicenseExtensionCode.esriLicenseExtensionCodeTracking });
+            ESRI.ArcGIS.RuntimeManager.Bind(ESRI.ArcGIS.ProductCode.Engine);
             InitializeEngineLicense();
         }
 
@@ -29,9 +30,11 @@ namespace CMap
         {
             AoInitialize aoi = new AoInitializeClass();
 
-            //more license choices could be included here
-            esriLicenseProductCode productCode = esriLicenseProductCode.esriLicenseProductCodeEngine;
-            if (aoi.IsProductCodeAvailable(productCode) == esriLicenseStatus.esriLicenseAvailable)
+            //Additional license choices can be included here.
+            esriLicenseProductCode productCode =
+                esriLicenseProductCode.esriLicenseProductCodeArcInfo;
+            if (aoi.IsProductCodeAvailable(productCode) ==
+                esriLicenseStatus.esriLicenseAvailable)
             {
                 aoi.Initialize(productCode);
             }

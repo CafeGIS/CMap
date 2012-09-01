@@ -17,7 +17,7 @@
         </chrome:WindowChrome>
     </chrome:WindowChrome.WindowChrome>
 	<Grid x:Name="LayoutRoot" Background="#FF333333">
-        <WindowsFormsHost x:Name="mapHost" Margin="57,241,68,24" />
+        <WindowsFormsHost x:Name="mapHost" Margin="42,192,83,73" />
         <Rectangle x:Name="mbtClose" Fill="#FFFB0F0F" HorizontalAlignment="Right" Height="25" Margin="0,4.958,4.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0" MouseUp="mbtClose_MouseUp"/>
         <Rectangle Fill="Gray" HorizontalAlignment="Right" Height="25" Margin="0,4.958,34.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0"/>
         <Rectangle Fill="Gray" HorizontalAlignment="Right" Height="25" Margin="0,4.958,64.834,0" Stroke="Black" VerticalAlignment="Top" Width="30" RadiusY="1.709" RadiusX="1.709" StrokeThickness="0"/>

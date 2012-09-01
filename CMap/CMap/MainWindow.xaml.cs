@@ -49,7 +49,7 @@ namespace CMap
 
             // Specify your .mxd file here.
             mapControl.LoadMxFile(
-              "C:\\Program Files\\ArcGIS\\DeveloperKit\\SamplesNET\\data\\GulfOfStLawrence\\Gulf_of_St._Lawrence.mxd");
+              "D:\\Untitled.mxd");
             System.Windows.MessageBox.Show("add");
         }
 

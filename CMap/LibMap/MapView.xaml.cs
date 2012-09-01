@@ -64,7 +64,7 @@ namespace LibMap
             mapControl.OnMouseMove += new IMapControlEvents2_Ax_OnMouseMoveEventHandler(mapControl_OnMouseMove);
 
             mapControl.LoadMxFile(
-              "C:\\Program Files\\ArcGIS\\DeveloperKit\\SamplesNET\\data\\GulfOfStLawrence\\Gulf_of_St._Lawrence.mxd");
+              "D:\\Untitled.mxd");
         }
 
         private void mapView_Loaded(object sender, RoutedEventArgs e)
