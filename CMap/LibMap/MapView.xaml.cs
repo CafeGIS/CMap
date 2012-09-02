@@ -63,8 +63,7 @@ namespace LibMap
             //wire up events
             mapControl.OnMouseMove += new IMapControlEvents2_Ax_OnMouseMoveEventHandler(mapControl_OnMouseMove);
 
-            mapControl.LoadMxFile(
-              "D:\\Untitled.mxd");
+            //mapControl.LoadMxFile("D:\\Untitled.mxd");
         }
 
         private void mapView_Loaded(object sender, RoutedEventArgs e)
